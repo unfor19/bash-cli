@@ -1,0 +1,9 @@
+---
+name=person_name
+short=s
+---
+name=bargs
+description=bash main.sh -sf incoming.txt -df README.md
+default=irrelevant
+---
+---
