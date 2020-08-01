@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source "${PWD}"/"$(dirname ${BASH_SOURCE[0]})"/scripts/bargs.sh "$@"
-source messages.sh
+source scripts/messages.sh
 
 gender_msg=
 msg="Welcome to the bash-cli template!"
