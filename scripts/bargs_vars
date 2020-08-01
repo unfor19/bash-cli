@@ -1,9 +1,21 @@
 ---
 name=person_name
-short=s
+short=n
+description=What is your name?
+---
+name=gender
+short=g
+description=Care to share your gender?
+options=male female
+default=Optional
+---
+name=age
+short=a
+description=How old are you?
+default=Optional
 ---
 name=bargs
-description=bash main.sh -sf incoming.txt -df README.md
+description=bash entrypoint.sh -n "Willy Wonka"
 default=irrelevant
 ---
 ---
